@@ -1,0 +1,25 @@
+body{
+  background-color: #feffaf;
+  text-align: center;
+  font-family: "Trebuchet MS";
+}
+td {
+  color: #435a75;
+}
+td { margin:10px auto 5px;
+      font-size: 20px;
+      color: #78a2d2;
+      background: rgba(254, 255, 175, 1);
+      padding: 15px 40px;
+      box-shadow: 0 4px 12px rgba(21, 0, 115,0.5);
+      font-family: "Trebuchet MS";
+}
+td:hover 
+	{
+	  transform: scale(1.055);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+      z-index: 2;
+      font-weight: bold;
+	}
+
+
