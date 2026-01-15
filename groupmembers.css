@@ -12,8 +12,9 @@ h1 {
     margin-bottom: 20px;
 }
 
-a:link, a:visited {
-    text-decoration: none;
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: inherit;
     font-size: 25px;
     color: #78a2d2;
     text-shadow: 3px 3px 6px #000, 0 0 30px #807900;
@@ -29,6 +30,6 @@ p {
     padding: 20px 40px;
     box-shadow: 0 6px 15px rgba(21, 0, 115, 0.6);
     border-radius: 15px;
-    color: #222;
+    color: #78a2d2;
     max-width: 800px;
 }
