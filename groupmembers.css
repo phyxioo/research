@@ -21,3 +21,12 @@ a:visited {
     background-color: #0e4d92;
 	text-shadow: 2px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
+
+p {
+	margin:10px auto 5px;
+    font-size: 25px;
+    background: rgba(254, 255, 175, 1);
+    padding: 15px 40px;
+    box-shadow: 0 4px 12px rgba(21, 0, 115,0.5);
+    font-family: "Trebuchet MS";
+}
