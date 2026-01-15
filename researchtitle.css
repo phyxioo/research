@@ -9,7 +9,7 @@ body {
 h1 {
   color: #78a2d2;
   text-align: center;
-  font-size: 40px;
+  font-size: 60px;
   background-color: rgba(254, 255, 175, 0.8);
-
+  text-shadow: 2px 2px white, 0 0 25px yellow, 0 0 5px yellow;
 }
