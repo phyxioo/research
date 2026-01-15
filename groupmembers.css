@@ -1,0 +1,23 @@
+body{
+    background-color: #78a2d2;
+}
+
+h1{
+    font-size: 25px;
+    color: #feffaf;
+	text-shadow: 2px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+a:link {
+    color: #feffaf;
+    font-size: 12px;
+    background-color: #0e4d92;
+	text-shadow: 2px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+a:visited {
+    color: #0e4d92;
+    font-size: 12px;
+    background-color: #0e4d92;
+	text-shadow: 2px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
