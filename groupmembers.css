@@ -1,34 +1,32 @@
-body{
+body {
     background-color: #78a2d2;
+    color: #000;
+    font-family: "Trebuchet MS", Arial, sans-serif;
 }
 
-h1{
-    font-size: 25px;
+h1 {
+    font-size: 32px;
     color: #feffaf;
-	text-shadow: 2px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-shadow: 3px 3px 6px #000, 0 0 30px #0044cc;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-a:link {
-    color: #feffaf;
-    font-size: 12px;
-	text-shadow: 2px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-	text-decoration: none;
-}
-
-a:visited {
-    color:  #78a2d2;
-    font-size: 12px;
-	text-shadow: 2px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-	text-decoration: none;
+a:link, a:visited {
+    color: #fff;
+    font-size: 16px;
+    text-shadow: 2px 2px 4px #000;
+    text-decoration: underline;
 }
 
 p {
-	margin:10px auto 5px;
-    font-size: 30px;
-    background: rgba(254, 255, 175, 1);
-    padding: 15px 40px;
-    box-shadow: 0 4px 12px rgba(21, 0, 115,0.5);
-    font-family: "Trebuchet MS";
-	text-decoration: none;
-	border-radius: 20px;
+    margin: 20px auto;
+    font-size: 22px;
+    line-height: 1.6;
+    background: rgba(254, 255, 175, 0.95);
+    padding: 20px 40px;
+    box-shadow: 0 6px 15px rgba(21, 0, 115, 0.6);
+    border-radius: 15px;
+    color: #222;
+    max-width: 800px;
 }
